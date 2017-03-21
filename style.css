@@ -287,6 +287,98 @@ margin-bottom:22px;
 }
 /*-------------END POSTS-----------*/
 
+/*-------------Resilient Resources POSTS-----------*/
+
+.et_right_sidebar #main-content .container.resilientresources::before {
+    right: 0 !important;
+}
+#main-content .container.resilientresources::before{
+width:0;
+background-color:none;
+}
+.resilient-image {
+    float: right;
+}
+.container.resilientresources #left-area {
+    width: 100%;
+}
+.author-resilientresources {
+    margin-bottom: 20px;
+}
+.resilient-image{
+padding-left:20px;
+}
+.resilient-downloads p{
+padding-left:0;  
+}
+.resilient-downloads {
+    overflow: hidden;
+}
+.resilient-downloads li{
+   background: #ec8538 none repeat scroll 0 0;
+    padding: 15px;
+    color:#fff;
+    margin:0 20px 20px 0;
+      float: left;
+    list-style-type: none;
+}
+.resilient-downloads a {
+    color:#fff;
+    font-weight:bold;
+}
+#left-area .resilient-downloads > ul {
+    clear: both;
+    overflow: hidden;
+    padding-left:0;
+    margin-top:10px;
+padding-bottom:0;
+}
+.resilient-abstract {
+    margin-bottom: 20px;
+}
+#main-content .container.resilientresources {
+    padding-top: 20px;
+}
+.resilient-audience, .resilient-topics {
+    font-size: 13px;
+}
+
+/*-------------End Resilient Resources POSTS-----------*/
+
+/*-------------Resilient Resources RESULTS-----------*/
+
+.resources-results > img {
+    float: left;
+    margin-right:20px;
+    width:155px;
+
+}
+.resources-results {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.resources-results:nth-child(1n) {
+    margin-top: 30px;
+}
+.resources-results h2{
+margin-top:5px;
+line-height: 1.2em;
+}
+
+#search-filter-form-1274 > ul {
+    background: #ffcba8;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.resilient-website > p {
+    padding-bottom: 0;
+}
+.resilient-website, .resilient-author{
+    margin-bottom: 20px;
+}
+/*-------------End Resilient Resources RESULTS-----------*/
+
 /*-------------SEARCH/FILTER-----------*/
 .searchandfilter ul li{
 float:left; 
@@ -295,7 +387,7 @@ padding-right:10px;
 .search-filter-results , .sf-field-reset{
     clear: both;
 }
-#search-filter-form-301 > ul {
+#search-filter-form-889 > ul {
     background: #a3c8e2;
     overflow: hidden;
     margin-bottom: 10px;
