@@ -54,6 +54,10 @@
 body.home .breadcrumbs {
    display:none;
 }
+ /*change size of images in news*/
+ .et_pb_image_container img, .et_pb_post a img {
+    max-width: 200px;
+}
 a:hover{
 text-decoration:underline;
 }
