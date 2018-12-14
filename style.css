@@ -448,6 +448,11 @@ font-size:46px !important;
 padding-right:20px;
 }
 }
+@media (max-width: 360px){
+ .et_pb_image_container img, .et_pb_post a img {
+    max-width: 100%;
+}
+}
 
 /*---------Clear all button coloring---------*/
 @media all and (max-width: 780px) {
