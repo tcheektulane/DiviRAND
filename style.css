@@ -449,7 +449,7 @@ padding-right:20px;
 }
 }
 @media (max-width: 360px){
- .et_pb_image_container img, .et_pb_post a img {
+.et_pb_module.et_pb_blog_0.et_pb_posts.et_pb_bg_layout_light img {
     max-width: 100%;
 }
 }
